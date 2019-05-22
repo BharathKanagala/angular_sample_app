@@ -1,9 +1,9 @@
-let myapp= angular.module("Myapp",[]);
+let myApp= angular.module("myApp",[]);
 let mycon= function($scope){
     $scope.message="Hello World";
 }
 
-myapp.controller("MyController",mycon);
+myApp.controller("MyController",mycon);
 
 let JSONController = function($scope){
 let student = {
@@ -13,9 +13,9 @@ let student = {
 }
 $scope.stud=student;
 }
-myapp.controller("Student",JSONController);
+myApp.controller("Student",JSONController);
 
 let bhar = function($scope){
     $scope.storedata= "Hi all my name is BK"
 }
-myapp.controller("Bharath",bhar);
+myApp.controller("Bharath",bhar);
